@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Luminari, fantasy;
+    font-size: 30px;
+    text-decoration: none;
+}
+.very-top{
+    height: 120px;
+    display: flex;
+    padding: 40px;
+    background-color: black;
+    justify-content: center;
+}
+
+.my-logo{
+display: flex;
+width: 380px;
+transition: 1s ease;
+opacity: 1;
+}
+.my-logo:hover{
+transition: 1s ease;
+opacity: 0.2;
+
+
+}
+
+.page-top{
+    display: flex;
+    padding-top: 80px;
+    color: rgb(31, 243, 31);
+    background-color: black;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+}
+.home:hover, .book:hover, .menu:hover{
+    color: rgb(151, 238, 151);
+
+}
+
+.page-body{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items:  center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    background-image: linear-gradient(black, rgb(50, 244, 50),black);
+   
+}
+.photo{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 550px;
+    height: 550px;
+    justify-content:space-evenly;
+    opacity:0.5;
+    transition: 1s ease;
+    
+}
+.photo:hover{
+    opacity:1;
+    transition: 1s ease;
+}
+.page-prefooter{
+    display: flex;
+    padding: 100px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    justify-content: center;
+}
+
+.page-prefooter:hover{
+    background-image: url(images/background-2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 40px 40px black inset;
+    display: flex;
+
+}
+.productphotography{
+    display: flex;
+    color: rgb(84, 243, 40);
+    font-size: 1.5em;
+}
+
+.productphotography:hover{
+    color: rgb(151, 238, 151)
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    height: 150px;
+    background-image: linear-gradient(black 80% ,rgb(84, 243, 40)90%);
+    justify-content: space-evenly;
+    flex-direction:row
+}
+.insta-logo, .mail-logo, .call{
+    display: flex;
+    width: fit-content;
+   height: 40px;
+   color: rgb(151, 238, 151);
+   font-size: 0.7em;
+}
+.link{
+    color: rgb(84, 243, 40)
+}
+.link:hover{
+    color: rgb(112, 230, 112);
+}
