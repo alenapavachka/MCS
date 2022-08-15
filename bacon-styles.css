@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-family:Bookman, URW Bookman L, serif;
+}
+h1 {
+    color: #ff0000;
+    background-color: #1a1a1a;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 50px ;
+    border-bottom: solid 3px #ff3333;
+    border-top: solid 3px #ff3333;
+    margin-bottom: 100px;
+
+}
+h2{
+    color: #ff0000;
+    background-color: #1a1a1a;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 40px ;
+    border-bottom: solid 2px #ff3333;
+    border-top: solid 2px #ff3333;
+    margin-bottom: 100px;
+
+}
+h2:last-of-type{
+    font-size: 17px;
+    padding: 20px;
+    color:#1a1a1a;
+    background-color:  #ff0000;
+    border-bottom: solid 2px #333333;
+    border-top: solid 2px #333333;
+    margin-bottom:20px;
+
+}
+
+.portrait {
+   height: 700px;
+   border: ridge 30px #262626;
+   margin-bottom: 100px;
+}
+
+ol li{
+    margin-bottom: 70px;
+}
+ul li::marker{
+    content:"🔗"
+}
+
+ul li{
+    display: list-item;
+    margin-left: 33em;
+    margin-bottom: 15px;
+    list-style: inside;
+    text-align: left;
+    font-size: larger;
+}
+ul li:last-of-type{
+    margin-bottom: 70px;
+}
+.button-one,.button-two, .button-three, .button-four {
+    color:#262626;
+    background-color:#ff0000;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #262626;
+    border-radius: 20px;
+    font-size: 1.3em;  
+}
+.button-one:hover,.button-two:hover, .button-three:hover, .button-four:hover{
+    color:#ff0000;
+    background-color: #262626;
+}
+p{
+    margin-bottom: 50px;
+}
+
+.work-one, .work-two, .work-three {
+    border: ridge 15px #262626;
+}
+.work-one, .work-three{
+    width: 500px;
+}
+.work-two{
+    height: 500px;
+}
+ .ptext{
+    font-size: 1.3em;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.pname{
+    font-family: American Typewriter, serif;
+    font-weight: bold;
+    margin-top: 30px;
+    color:#333333;
+}
+.pname em {
+color:#1a1a1a;
+font-weight: lighter;
+font-style: italic;
+font-family: American Typewriter, serif;
+}
+
+.links {
+    color: #1a1a1a;
+}
+.links :visited{
+    color: #8d8a8a;
+}
+.links:hover{
+    color: #991f00;
+
+}
+.links:active{
+    color:#ff0000;
+}
+.contact{
+    color:#991f00;
+    font-family: OCR A Std, monospace;
+}
+.contact:hover{
+    color:#8d8a8a;
+}
+.last{
+    font-size: larger;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+.manul{
+    width: 220px;
+    border-radius: 10px;
+    border: 2px solid slategray;
+}
