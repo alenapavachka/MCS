@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Chalkduster;
+    font-size: 45px;
+    text-decoration: none;
+
+}
+
+.page-top{
+    display:flex;
+    height: 300px;
+    background-color: black;
+    justify-content: center;
+
+}
+h1{
+    text-shadow: 2px 1px #eeaeca;
+}
+h1:hover{
+    color: #eeaeca;
+}
+.facts{
+    color: black;
+   justify-content: center;
+   align-items: center;;
+    display: flex;
+    height: 180;
+    width: 800px;
+    background-image: url(images/background.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: x;
+    box-shadow: 0 0 50px 50px black inset;
+    border-radius:  44%;
+
+}
+.page-body{
+    display: flex;
+    background:radial-gradient( ellipse closest-side at 50% , #eeaeca 0, #4b496b 45%, black 91%);
+    height: 1100px;
+    justify-content: space-evenly;
+    align-content: center;
+    block-size: fit-content;
+    block-size: fit-content;
+
+}
+
+.venus, .mars, .jupiter{
+ display: flex;
+ flex:initial;
+ flex-direction: column;
+ margin: 100px;
+ padding-top: 20px;
+ width: 400px;
+ border-radius: 50px;
+}
+.venus{
+    background-image:url(images/bvenus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.mars{
+    background-image:url(images/bmars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.jupiter{
+    background-image:url(images/bjupiter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2{
+    color:#e8aeee;
+    text-shadow: 2px 3px black;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+h2:hover{
+    color: black;
+}
+
+ul{
+    list-style: none;
+    text-align: justify;
+    padding:10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+li{
+    color: #0c0a20;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+ul li::marker{
+    content:"☾";
+    list-style: inside;
+    display: list-item;
+    margin-left: 40em;
+
+}
+.footer{
+    display: flex;
+    height: 300px;
+    background-color: black ;
+    justify-content: space-evenly;
+}
+.planet-v, .planet-m, .planet-j{
+    opacity: 0.93;
+    transition: 1s ease;
+}
+.planet-v:hover, .planet-m:hover, .planet-j:hover{
+    transition: 1s ease;
+    opacity: 0.5;
+}
+
