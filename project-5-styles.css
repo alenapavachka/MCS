@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family:Bookman, URW Bookman L, serif;
+    text-decoration: none;
+}
+
+body{
+    height: 2000px;
+    font-size: 22px;
+    color: #21130c;
+
+}
+
+a:link,
+a:visited{
+    color:  #21130c;
+}
+a:hover{
+    color: #a55f39;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+    background-image:linear-gradient(white,#ddb39c);
+    z-index: 2;
+}
+.menu{
+    margin-top: 15px;
+}
+.menu > li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 1.2em;
+}
+.menu >li:last-of-type {
+    margin-right: 0;
+}
+
+.dropdown:hover .features-menu{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    background-color:#e7cabb;
+    border-radius: 8px;
+    padding: 15px;
+    right: -40px;
+    top: -25px;
+    padding-top: 60px;
+    opacity: 0.8;
+}
+
+.features-menu li{
+    list-style: none;
+    border-bottom: 1px solid ;
+    margin: 10px;
+    padding: 0 20px 10px 20px;
+    margin: 10px;
+
+}
+.features-menu li:last-of-type{
+    border-bottom: none;
+
+}
+.dropdown{
+    position: relative;
+}
+.dropdown >span{
+position: relative;
+z-index: 2;
+cursor: cell;
+}
+.features-menu{
+    z-index: 1;
+    display: none;
+}
+.name{
+    font-size: 1.8em;
+    text-shadow: 1px 2px #e7cabb;
+}
+
+
+
+.hero{
+    display: flex;
+    height: 1200px;
+    width: 100%;
+    background-image: url(images/hero-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1f0f17;
+}
+.photographer{
+    font-size: 5em;
+    text-shadow: 1px 2px#e7cabb;
+    transition: 1s ease;
+    opacity: 1;
+}
+.photographer:hover{
+    transition: 1s ease;
+    opacity: 0.1;
+}
+.descriptive{
+    font-size: 2em;
+}
+
+.insta:hover{
+    opacity: 0.9;
+}
+.insta:link,
+.insta:visited{
+    color: #e7cabb;
+}
+.button{
+    margin-top: 70px;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #21130c;
+    opacity: 0.65;
+}
+.examples{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 170px;
+    background-image:linear-gradient(#ddb39c,white);
+}
+.photos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.pic{
+    display: flex;
+    height: 650px;
+    transition: 1s ease;
+    opacity: 0.5;
+    z-index: 1;
+ 
+}
+.pic:hover{
+    transition: 1s ease;
+    opacity: 1;
+}
+
+.texbox{
+    display: flex;
+    width: 850px;
+    height: fit-content;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #ddb39c;
+    transition: 1s ease;text-align: center;
+    opacity: 0.8;
+
+}
+.texbox:hover{
+    transition: 1s ease;
+    opacity:1;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-top: 1px solid #ddb39c;
+}
