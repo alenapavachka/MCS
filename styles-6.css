@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    font-size: 23px;
+    font-family:Impact, fantasy;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(54, 54, 54);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;  
+}
+.link:link,
+.link:visited{
+    color: whitesmoke;
+
+}
+.link:hover{
+    color: rgb(217, 213, 213)
+}
+
+.page-body{
+    display: flex;
+    width: 100%;
+    font-size:1.2em;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    padding: 40px;
+}
+.rectangular{
+    display: flex;
+    height: 200px;
+    margin-bottom: 40px;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+
+}
+
+.rectangular:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(40, 39, 39);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 767px){
+    .footer{
+        font-size: 0.9em;
+
+     }
+     .rectangular:last-of-type{
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .page{
+        font-size: 30px;
+    }
+    .page-body{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height:1200px;
+    }
+    .rectangular{
+        width: 45%;
+        height: 300px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px){
+    .page-body{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 800px;
+    }
+    .rectangular{
+        width: 45%;
+    }
+    .article{
+        font-size: 1.4em;
+        padding: 20px;
+    }
+    .header{
+        font-size: 1.4em;
+    }
+}
+
+  
