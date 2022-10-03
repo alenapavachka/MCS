@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="styles-7.css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="header-text">
+            <h1>Urban Scapes</h1>
+            <span><h3>Los Angeles<h3></span>
+        </div>
+    </div>
+   
+    <div class="page-body">
+        <div class="column-one">
+            <div class="image">
+                <img src="images/la-first-500.jpg" alt="los-angeles.jpg" width="1000px"
+                srcset="images/la-first-500.jpg 1000w,
+                        images/la-first-1000.jpg 2000w,
+                        images/la-first-1500.jpg 3000w"
+                sizes="(max-width:767px) 75vw,(min-width:768px) 25vw">
+
+            </div>
+            <div class="column-text">
+                <h2>Main Street</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni est quaerat eum omnis maiores atque, sapiente, impedit voluptatibus placeat totam cumque obcaecati rem praesentium, expedita repellat qui officia nemo assumenda.</p>
+            </div>
+        </div>
+
+        <div class="column-two">
+            <div class="image">
+                <img src="images/la-second-500.jpg" alt="los-angeles.jpg" 
+                     srcset="images/la-second-500.jpg 500w,
+                             images/la-second-1000.jpg 1000w,
+                             images/la-second-1500.jpg 1500w"
+                     sizes="(max-width:767px) 75vw,(min-width:768px) 25vw" />
+            </div>
+            <div class="column-text">
+                <h2>Olimpic Bulevard</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi quia consequuntur suscipit deleniti voluptate eaque ad magni tempore voluptatibus inventore hic, est sint placeat velit esse illum recusandae nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cum odio laboriosam quasi id consequuntur veniam tenetur sed aut. Cupiditate eaque a vitae nesciunt explicabo, iusto quibusdam molestias similique nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero debitis nesciunt aliquid inventore tempora natus fugit, quas repudiandae aliquam eaque, dolorem obcaecati odit, ipsum eos est quae temporibus commodi consectetur.</p>
+            </div>
+        </div>
+
+        <div class="column-three">
+            <div class="image">
+                 <picture>
+                    <source media="(max-width: 401px)"
+                            srcset="images/la-third-500.jpg">
+                     <source media="(min-width: 768px) and (max-width:1022px)"
+                            srcset="images/la-third-1000.jpg">
+                     <source media="(min-width: 1023px)"
+                            srcset="images/la-third-1500.jpg">
+                     <img src="images/la-third-500.jpg" alt="los-angeles.jpg"/>
+                 </picture>
+            </div>
+            <div class="column-text">
+                <h2>Mission Road</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam ducimus, doloremque, deserunt nobis explicabo voluptatibus quia voluptate molestiae doloribus, cupiditate repellat magnam culpa fuga totam laborum accusantium sit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo officiis quibusdam, ipsam beatae quod velit error nam impedit, quos minima sint necessitatibus natus nobis illo quae qui doloribus. Nostrum!</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+         <div class="footer-text">2022</div>
+    </div>
+    
+</body>
+</html>
