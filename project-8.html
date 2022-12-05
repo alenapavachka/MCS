@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics&Form</title>
+    <link rel="stylesheet" href="styles-8.css"/>
+   </head>
+<body>
+    <div class="page">
+        <header class="page-header">
+            <nav class="page-menu">
+                <ul>
+                    <li><a href="#">DONATE</a> </li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">HOME</a></li>
+                </ul>
+            </nav>
+        </header>
+
+       <div class="page-body">
+         <div class="donate-form">
+            <header class="form-header"><h3>FILL OUT THE FORM <span>TO DONATE CLOTHES</span></h3></header>
+            <form action="https://formspree.io/f/xnqreqlz" method="post" class="donate">
+
+
+                <div class="form-row name">
+                    <label for="name">Name:</label>
+                    <input id="name" name="name" type="text" placeholder="Sustainable Fashionista" minlength="2" maxlength="20" />
+                </div>
+
+                <div class="form-row mail">
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" placeholder="lets-savetheplanet@gmail.com" />
+                </div>
+
+                <fieldset class="form-row-radio">
+                    <legend>Delivery Options:</legend>
+
+                    <input id="delivery-option-1" name="delivery-option" type="radio" value="drop-off" checked/>
+                    <label for="delivery-option-1" class="radio-label">Drop Off</label>
+
+                    <input id="delivery-option-2" name="delivery-option" type="radio" value="ship"/>
+                    <label for="delivery-option2" class="radio-label">Ship</label>
+                </fieldset>
+
+                <div class="form-row locations">
+                    <label for="location">Locations:</label>
+                    <select id="location" name="location">
+                        <option value="downtown-la">Downtown LA</option>
+                        <option value="pasadena">Pasadena</option>
+                        <option value="hollywood">Hollywood</option>
+                        <option  value="santa-clarita">Santa Clarita</option>
+                        <option value="tustin">Tustion</option>
+                        <option value="anaheim">Anaheim</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label class="textarea-label" for="feature-story">What's YOUR story?</label>
+                    <textarea id="feature-story" name="feature-story" placeholder="Sustainable life approch for me is..." minlength="10"></textarea>
+                </div>
+
+                <div class="form-row checkbox">
+                    <input id="agree-to-share" type="checkbox" value="agree">
+                    <label for="agree-to-share" class="checkbox-label">I let you post my story.</label>    
+                </div>
+
+                <div class="form-row">
+                    <button>SUBMIT</button>
+                </div>
+
+            </form>
+        </div>
+        
+        
+        <section>
+            <div class="section-body>">
+                <p>“Clothes are not going to change the world, the women who wear them will” <span>-Anne Klein-</span></p>
+            </div>
+        </section></div>
+
+
+        <footer class="page-footer">
+            <div><h3>other places to donate</h3></div>
+            <nav class="other-stores">
+                <ul class="stores">
+                    <li><a href="https://www.goodwill.org/" target="_blank"><img  src="images/Goodwill.png"/></a></li>
+                    <li><a href="https://www.planetaid.org/" target="_blank"><img src="images/Planetaid.png"/> </a></li>
+                    <li><a href="https://www.salvationarmyusa.org/usn/" target="_blank"><img src="images/Army.png"></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    
+</body>
+</html>
